@@ -43,9 +43,10 @@ while True:
             break  # Exit the loop and end the program
         else:
             print('Invalid option. Please try again.')
-
+        
     except ValueError:
         print('Invalid input. Please enter a valid option.')
+        break
 
     # Optionally, you can add a prompt here to continue or quit the program
     # based on user input
